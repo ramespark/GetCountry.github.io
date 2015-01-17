@@ -126,7 +126,7 @@ $(document).ready(function () {
 	});
 
 	var fetchCountries = function () {
-		$.getJSON("http://api.geonames.org/countryInfoJSON?username=dperic", function(data) {
+		$.getJSON("http://api.geonames.org/countryInfoJSON?username=ramespark", function(data) {
 			for(var i = 0; i < data.geonames.length; i++) {
 				var oLength = options.length;
 				var value = {};
